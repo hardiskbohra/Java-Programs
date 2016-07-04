@@ -1,0 +1,36 @@
+
+Q1  : Virtual Function, Encapsulation, Abstraction.
+Ans :
+
+Q2  : Function Overloading
+Ans :
+
+Q3  : Function Overriding
+Ans :
+
+Q4  : Transactions, Normalization in dbms.
+Ans :
+
+Q5  : Inheritance and polymorphism and other basic OOPs concept.
+Ans :
+
+Q6  : Question about clouding.
+Ans :
+
+Q7  : OS, DS and SQL concepts.
+Ans :
+
+Q8  : what is indexing and hashing in dbms?
+Ans :
+
+Q9  : what is Interface, Multithreding in java?
+Ans :
+
+Q  :
+Ans :
+
+Q  :
+Ans :
+
+Q  :
+Ans :
