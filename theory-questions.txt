@@ -26,11 +26,186 @@ Ans :
 Q9  : what is Interface, Multithreding in java?
 Ans :
 
-Q  :
-Ans :
+Q10  : find the odd (heavier) from 100 balls in minimum comparisons.
+Ans  :
+
+Q11  : What is deadlock.what are the conditions for occuring deadlock.?
+Ans  :
+
+Q12  : What is Semaphore? Types of semaphore.?
+Ans  :
+
+Q13  : What are joins in SQl.Difference between left outer join and right outer join?
+Ans  :
+
+Q14  : write Three commands for DDL,DML,DCL?
+Ans  :
+
+Q15  : What is Transaction in DBMS and also tell the ACID properties?
+Ans  :
+
+Q16  : What is RollBack & savepoint in Transactions.
+Ans  :
+
+Q17  : you have given a employee table in which you have their salary and employee name.
+       Write a query to find the nth highest salary and the employee name.
+Ans  :
+
+Q18  : summary generator using probabilistic model.
+Ans  :
+
+Q19  : Role in your project. advantages of your project. flows in your proect.
+Ans  :
+
+Q20  : Why did you used probabilistic model? why did you not used Vector space model.
+Ans  :
+
+Q21  : on which technology, you have worked till now?
+Ans  :
+
+Q22  : Tower of Hanoi Problem & time complexity.
+Ans  :
+
+Q23  : What is polymorphism? type of polymorphism.
+Ans  :
+
+Q24  : Static Keyword in c++. Final keyword in java.
+Ans  :
+
+Q25  : What is constructor and types of constructor.
+Ans  :
+
+Q26  : Life Cycle of a Applet in Java beacuse i had used java applets in my project GUI.
+Ans  :
+
+Q27  : Given a table of employees containing employee_id, manager_id and employee_name, find the topmost manager and second topmost manager.
+Ans  :
+
+        Employee	Manager
+          a        	b
+          b	         c
+          c	         d
+
+        If that is the case, we can find topmost manager by running below query.
+
+        SELECT Manager FROM tbl WHERE Employee
+        NOT IN (SELECT DISTINCT(Employee) FROM
+        tbl)
+
+
+        And second topmost manager using below query.
+
+        SELECT Employee FROM tbl WHERE Manager IN
+        (SELECT Manager FROM tbl WHERE Employee
+        NOT IN (SELECT DISTINCT(Employee) FROM
+        tbl))
+
+Q28  : Difference between interfaces and abstraction.
+Ans  :
+
+Q29  : What is recursion. Space complexity, time complexities, system overheads etc.
+Ans  :
+
+Q30  : What are clustered and non-clustered indexes.
+Ans  :
+
+Q31  : Why should not we use indexes? (Told about extra spaces) When do we use B-trees and hash-table during indexing?
+Ans  :
+
+Q32  : Difference between WHERE and HAVING in SQL.
+Ans  :
+
+Q33  : Constructor and Destructor in C++.
+Ans  :
+
+Q34  : What is web technology?
+Ans  :
+
+Q35  : Write some Basic syntax of HTML
+Ans  :
+
+Q36  : Given 2 tables of employee containing employee_id,employee_name and department containing employee_id(foriegn key), dept_id
+       find the name of the employee who worked in maximum no. of deparments.
+Ans  : select emp_id, count(dept_id) as departments, name
+       from dept
+       join emp
+       on dept.emp_id = emp.id
+       group by emp_id
+       order by departments desc
+       limit 1
+
+Q37  : Real-life applications of Data-structure.
+Ans  :
+
+Q38  : which data structure used in printer?
+Ans  :
+
+Q39  : which data structure used for maintaining Dictionary.?
+Ans  :
+
+Q40  : What is the searching and space compexity of your Trie for maintaining Dictionary.
+Ans  :
+
+Q41  : How many square in (8*8) chess board.
+Ans  : 204
+
+        1x1	    64
+        2x2	    49
+        3x3	    36
+        4x4	    25
+        5x5	    16
+        6x6	    9
+        7x7	    4
+        8x8	    1
+     	 	total 	204
+
+Q42  : Give general formula for square in (n*n)
+Ans  : total number of square = square(n) + square(n-1) + square(n-2) + ... + 1
+
+Q43  : Given a pastry. someone eat it from one side how you divide it into 2 equal parts.
+Ans  :
+
+Q44  :
+Ans  :
+
+Q45  :
+Ans  :
+
+Q46  :
+Ans  :
+
+Q47  :
+Ans  :
+
+Q48  :
+Ans  :
+
+Q49  :
+Ans  :
+
+Q50  :
+Ans  :
 
 Q  :
-Ans :
+Ans  :
 
 Q  :
-Ans :
+Ans  :
+
+Q  :
+Ans  :
+
+Q  :
+Ans  :
+
+Q  :
+Ans  :
+
+Q  :
+Ans  :
+
+Q  :
+Ans  :
+
+Q  :
+Ans  :
